@@ -35,11 +35,11 @@ def rps() :
 
 
 
-#To allow replay!       
+#To allow replay!
 while True :
     rps()
     play_again = input("Play again? (y/n): ").lower() # y = yes and n = no
-    if play_again != 'y': # Anything apart from 'y' means No!
+    if play_again != 'y' : # Anything apart from 'y' = no
         print("Thanks for playing! Bye!")
         print("See you soon :) ")
         break
@@ -47,4 +47,4 @@ while True :
 # Gets the scores of user and computer displayed
 print(f"Your score is {user_score}")
 print(f"Computer score is {computer_score}")
-# Will soon do some more tweaks!        
+# Will soon do some more tweaks!
